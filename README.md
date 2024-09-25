@@ -19,7 +19,16 @@ Welcome to **YouTube Playlist Info**, a lightweight browser extension designed t
 
 ![Extension Screenshot](![Screenshot 2024-09-25 122233](https://github.com/user-attachments/assets/1ae43475-87bb-42fb-bdd5-32baafc6f5f7)
 )  
-*A preview of the extension UI showing a list of videos and their details.*
+
+---
+## 📹 Screen video
+
+![Extension  Screen video](![Screenshot 2024-09-25 122233](
+
+https://github.com/user-attachments/assets/d77bc986-c7e7-4113-8ced-cab8d2d32fe8
+
+)
+)  
 
 ---
 
