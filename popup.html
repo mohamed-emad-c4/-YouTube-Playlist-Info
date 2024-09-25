@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube Playlist Info</title>
+    <style>
+        body {
+            width: 300px;
+            font-family: 'Roboto', sans-serif;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .video {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-title {
+            font-weight: bold;
+            color: #1a73e8;
+            display: block;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+
+        .video-duration {
+            color: #757575;
+        }
+
+        .summary {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e3f2fd;
+            border-radius: 8px;
+        }
+
+        .summary p {
+            margin: 5px 0;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Playlist Videos</h3>
+    <p>
+        Check out my GitHub:
+        <a href="https://github.com/mohamed-emad-c4" target="_blank">Mohamed Emad</a>
+    </p>
+    <div id="videoList"></div>
+
+    <div class="summary">
+        <p id="totalVideos"></p>
+        <p id="totalDuration"></p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

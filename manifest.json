@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Playlist Info",
+    "version": "1.0",
+    "description": "Get all video titles, URLs, and durations from a YouTube playlist.",
+    "permissions": ["activeTab", "tabs", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/playlist?*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
